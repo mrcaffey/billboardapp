@@ -1,5 +1,6 @@
 class ChartsController < ApplicationController
   def index
+    @artist = Artist.all
     @charts = Chart.all
   end
 

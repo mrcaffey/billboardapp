@@ -1,27 +1,22 @@
 <h1 class="header">Billboard Earth: Weekly Top 10</h1>
 
-
 <h2>Updated Weekly: The world's 10 hottest songs</h2>
 
 
-
-
-<table class="ui very basic collapsing celled table">
+<table class= "ui selectable celled table">
   <thead>
     <tr><th>Track</th>
     <th>Rank</th>
-    
 
   </tr></thead>
   <tbody>
     <tr>
       <td>
         <h4 class="ui image header">
-          <img src="/images/avatar2/small/lena.png" class="ui mini rounded image">
+          <img src="/images/avatar2/small/lena.png" class="ui mini rounded image"> 
           <div class="content">
             In My Feelings
-            <div class="sub header"><%= link_to "Drake", @artist %>
-          </div>
+            <div class="sub header"><%= link_to "Drake", @artist[0] %>
         </div>
       </h4></td>
       <td>
@@ -35,7 +30,7 @@
           <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">
           <div class="content">
             God Is A Woman
-            <div class="sub header"><%= link_to "Ariana Grande", @artist %>
+            <div class="sub header"><%= link_to "Ariana Grande" %>
           </div>
         </div>
       </h4></td>
@@ -50,7 +45,7 @@
           <img src="/images/avatar2/small/lindsay.png" class="ui mini rounded image">
           <div class="content">
             Girls Like You
-            <div class="sub header"><%= link_to "Maroon 5", @artist %>
+            <div class="sub header"><%= link_to "Maroon 5"  %>
           </div>
         </div>
       </h4></td>
@@ -65,7 +60,7 @@
           <img src="/images/avatar2/small/mark.png" class="ui mini rounded image">
           <div class="content">
           I Like It
-            <div class="sub header"><%= link_to "Cardi B, Bad Bunny & J Balvin", @artist %>
+            <div class="sub header"><%= link_to "Cardi B, Bad Bunny & J Balvin"  %>
           </div>
         </div>
       </h4></td>
@@ -80,7 +75,7 @@
           <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">
           <div class="content">
             Better Now
-            <div class="sub header"><%= link_to "Post Malone", @artist %>
+            <div class="sub header"><%= link_to "Post Malone"  %>
           </div>
         </div>
       </h4></td>
@@ -95,7 +90,7 @@
           <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">
           <div class="content">
             FEFE
-            <div class="sub header"><%= link_to "6ix9ine Featuring Nicki Minaj & Murda Beatz", @artist %>
+            <div class="sub header"><%= link_to "6ix9ine Featuring Nicki Minaj & Murda Beatz"  %>
           </div>
         </div>
       </h4></td>
@@ -110,7 +105,7 @@
           <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">
           <div class="content">
            Lucid Dreams
-            <div class="sub header"><%= link_to "Juice WRLD", @artist %>
+            <div class="sub header"><%= link_to "Juice WRLD"  %>
           </div>
         </div>
       </h4></td>
@@ -125,7 +120,7 @@
           <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">
           <div class="content">
             Sicko Mode
-            <div class="sub header"><%= link_to "Travis Scott", @artist %>
+            <div class="sub header"><%= link_to "Travis Scott"  %>
           </div>
         </div>
       </h4></td>
@@ -140,7 +135,7 @@
           <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">
           <div class="content">
             Taste
-            <div class="sub header"><%= link_to "Tyga Feat. Offset", @artist %>
+            <div class="sub header"><%= link_to "Tyga Feat. Offset"  %>
           </div>
         </div>
       </h4></td>
@@ -155,7 +150,7 @@
           <img src="/images/avatar2/small/matthew.png" class="ui mini rounded image">
           <div class="content">
             Love Lies
-            <div class="sub header"><%= link_to "Khalid & Normani", @artist %>
+            <div class="sub header"><%= link_to "Khalid & Normani"  %>
           </div>
         </div>
       </h4></td>
@@ -165,6 +160,4 @@
     </tr>
   </tbody>
 </table>
-
-
 

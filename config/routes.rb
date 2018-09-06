@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
-  root "chart#index"
 
-  resources :chart
+ 
+ #get 'artists/name'
+  #get 'artists/genre'
+  #get 'charts/rank'
+  #get 'charts/name'
+  #get 'charts/edit'
+   root 'charts#index'
+  
+
+  resources :charts, :artist
 
 
   #get 'chart/index'

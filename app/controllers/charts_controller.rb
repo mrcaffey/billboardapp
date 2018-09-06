@@ -1,4 +1,4 @@
-class ChartController < ApplicationController
+class ChartsController < ApplicationController
   def index
   end
 

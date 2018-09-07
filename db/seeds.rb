@@ -27,3 +27,12 @@
 #end
 
 Artist.create(name: "Drake", genre: "Hip-Hop")
+Artist.create(name: "Ariana Grande", genre: "Pop")
+Artist.create(name: "Maroon 5", genre: "Pop")
+Artist.create(name: "Cardi B", genre: "Hip-Hop")
+Artist.create(name: "Post Malone", genre: "Hip-Hop")
+Artist.create(name: "6ix9ine", genre: "Hip-Hop")
+Artist.create(name: "Juice Wrld", genre: "Hip-Hop")
+Artist.create(name: "Travis Scott", genre: "Hip-Hop")
+Artist.create(name: "Tyga", genre: "Hip-Hop")
+Artist.create(name: "Khalid", genre: "Contemporary R&B")

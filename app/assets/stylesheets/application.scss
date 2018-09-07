@@ -1,5 +1,5 @@
 @import 'semantic-ui';
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Taviraj');
 
 
 body {
@@ -9,6 +9,21 @@ body {
 .description {
   color: white;
 }
+
+
+
+.chart-header {
+  font-family: 'Taviraj', serif;
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
 
 .artist-title {
   color: cyan;

@@ -1,2 +1,28 @@
 @import 'semantic-ui';
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
+
+body {
+  background-color: black;
+}
+
+.description {
+  color: white;
+}
+
+.artist-title {
+  color: cyan;
+  font-size: 5em;
+  font-family: 'Rock Salt', cursive;
+  padding: 10px;
+}
+
+.artist-genre {
+  color: grey;
+  font-size: 1.5em;
+}
+
+.artist-bio {
+  color: grey;
+  font-size: 1.5em;
+}

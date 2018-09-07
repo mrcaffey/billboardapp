@@ -5,7 +5,7 @@ class ChartsController < ApplicationController
   end
 
   def show
-    @charts = Chart.find(params[:id])
+    @charts = Artist.find(params[:id])
   end
 
   def new

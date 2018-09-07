@@ -1,4 +1,7 @@
-<div class="ui inverted two item menu">
+<div class="ui inverted three item menu">
+  <div class="item">
+    <%= button_to "sign in", new_user_session_path, method: :get, class: 'ui labeled icon button' %>
+  </div>
   <%= link_to "Billboards", charts_path, class: 'red item' %>
   <%= link_to "Artists", artists_path, class: 'teal item' %>
   <%# link_to "Songs", songs_path %>

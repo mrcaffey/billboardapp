@@ -1,17 +1,27 @@
 @import 'semantic-ui';
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Taviraj');
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Rock+Salt|Taviraj');
 
 
 
 //---------HOMEPAGE------------//
+
 body {
   background-color: black;
   border: 2px solid #00FFFF;
   border-radius: 7px;
 }
 
+
 .description {
   color: white;
+}
+
+
+.subheader {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 70px;
+  font-weight: 80;
+  color: #FF69B4;
 }
 
 
@@ -21,12 +31,17 @@ body {
   font-size: 50px;
 }
 
+.subheader {
+  font-family: 'Mr Dafoe', cursive;
+  color: #FF69B4;
+
+}
+
 
 .table {
   background: #BBD2C5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
 
 }
 

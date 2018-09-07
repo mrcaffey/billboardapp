@@ -1,16 +1,35 @@
 
-<h1 class="artist-title"><%= @artist.name %></h1>
-<h4 class="artist-genre"><%= @artist.genre %></h1>
+
+#<h4 class="artist-genre"><%= @artist.genre %></h1>
 
 <%= link_to 'Back', artists_path %>
 
+<% if @artist.name == 'Drake' %>
+<h1 class="drake-title"><%= @artist.name %></h1>
+<h4 class="artist-genre"><%= @artist.genre %></h1>
 <img src="http://www.pngall.com/wp-content/uploads/2016/06/Drake-PNG.png" alt="Drake" style="">
 
-
-<div class = "artist-bio"
+<div class = "drake-bio">
 <p>"Aubrey 'Drake' Graham is a Grammy-Award winning, platinum-selling recording artist and multi-faceted entertainer.
-
 Born in Toronto on October 24th, 1986, Drake is the son of Sandi and Dennis Graham, a drummer who worked with Jerry Lee Lewis. His father is African American, a native of Memphis, Tennessee and his mother is Jewish Canadian. Drake’s interest in performing began at an early age. From summers spent with his dad in Memphis, he gained an appreciation and understanding for music that would later influence the sound he would create in years to come." </p>
-
 --- <a href = "https://drakeofficial.com/biography.html">Drake Official Biography Page</a>
 </div>
+
+
+<% elsif @artist.name == 'Ariana Grande' %>
+<h1 class="ariana-title"><%= @artist.name %></h1>
+<h4 class="artist-genre"><%= @artist.genre %></h1>
+<%=image_tag("ariana.png")%>
+
+<div class = "ariana-bio"
+<p>"Ariana was born on June 26, 1993 in Boca Raton to Joan Marguerite Grande, a chief executive officer for Hose-McCann Communications & Edward Charles Butera, a graphic designer/founder of IBI Designs Inc. She began her career in 2008 in the Broadway musical, 13 before playing the role of Cat Valentine in the Nickelodeon television series, Victorious & in the spinoff, Sam & Cat until 2014. She has also appeared in other theatre and television roles and has lent her voice to animated television and films."
+</p>
+--- <a href = "https://www.imdb.com/name/nm3812858/bio">Ariana Grande IMDB</a>
+</div>
+
+
+<% elsif @artist.name == 'Maroon 5' %>
+
+<%end%>
+
+

@@ -5,6 +5,12 @@
 
 body {
   background-color: black;
+<<<<<<< HEAD
+=======
+  border: flex2px solid #00FFFF;
+  border-radius: 7px;
+  padding: 10px;
+>>>>>>> updated artist links
 }
 
 .description {
@@ -42,7 +48,7 @@ body {
 
 
 
-.artist-title {
+.drake-title {
   color: cyan;
   font-size: 5em;
   font-family: 'Rock Salt', cursive;
@@ -54,7 +60,26 @@ body {
   font-size: 1.5em;
 }
 
-.artist-bio {
+.drake-bio {
+  color: grey;
+  font-size: 1.5em;
+}
+
+
+.ariana-title {
+  color: hotpink;
+  font-size: 5em;
+  font-family: 'Rock Salt', cursive;
+  padding: 10px;
+
+}
+
+.artist-genre {
+  color: grey;
+  font-size: 1.5em;
+}
+
+.ariana-bio {
   color: grey;
   font-size: 1.5em;
 }

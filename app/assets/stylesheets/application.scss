@@ -1,16 +1,11 @@
 @import 'semantic-ui';
 @import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Rock+Salt|Taviraj');
 
-
-
 //---------HOMEPAGE------------//
 
 body {
   background-color: black;
-  border: 2px solid #00FFFF;
-  border-radius: 7px;
 }
-
 
 .description {
   color: white;
@@ -22,7 +17,7 @@ body {
   font-size: 75px;
   font-weight: 80;
   color: #FF69B4;
-  
+
 }
 
 
@@ -60,6 +55,18 @@ body {
 }
 
 .artist-bio {
+  color: grey;
+  font-size: 1.5em;
+}
+
+#artist-title {
+  color: cyan;
+  font-size: 3em;
+  font-family: 'Rock Salt', cursive;
+  padding: 10px;
+}
+
+#artist-genre {
   color: grey;
   font-size: 1.5em;
 }

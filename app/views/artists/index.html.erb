@@ -1,6 +1,8 @@
 <h1>Artists</h1>
 
 <% @artists.each do |artist| %>
-  <h2><%= artist.name %></h2>
+  <h2 id="artist-title"><%= artist.name %></h2>
+  <h3 id="artist-genre"><%= artist.genre %></h3>
   <%= link_to 'Show Page', artist_path(artist) %>
+  <hr>
 <% end %>

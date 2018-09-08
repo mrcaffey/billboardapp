@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  devise_for :users
+  #devise_for :users
   #get 'songs/index'
   #get 'songs/show'
   #get 'songs/new'

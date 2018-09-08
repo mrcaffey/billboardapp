@@ -5,8 +5,8 @@
 
 body {
   background-color: black;
-  border: flex2px solid #00FFFF;
-  border-radius: 7px;
+  // border: 2px solid #00FFFF;
+  // border-radius: 7px;
   padding: 10px;
 }
 
@@ -39,10 +39,13 @@ body {
 
 }
 
+.new_user {
+  color: gray;
+}
 
-
-
-
+#new_user_form {
+  color: gray;
+}
 
 
 .drake-title {
